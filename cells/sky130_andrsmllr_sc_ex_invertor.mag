@@ -1,0 +1,84 @@
+magic
+tech sky130A
+timestamp 1615665480
+<< nwell >>
+rect -2 103 107 199
+<< nmos >>
+rect 43 25 58 67
+<< pmos >>
+rect 43 129 58 181
+<< ndiff >>
+rect 0 59 43 67
+rect 0 29 20 59
+rect 37 29 43 59
+rect 0 25 43 29
+rect 58 63 107 67
+rect 58 33 64 63
+rect 81 33 107 63
+rect 58 25 107 33
+<< pdiff >>
+rect 16 175 43 181
+rect 16 135 20 175
+rect 37 135 43 175
+rect 16 129 43 135
+rect 58 177 89 181
+rect 58 134 64 177
+rect 81 134 89 177
+rect 58 129 89 134
+<< ndiffc >>
+rect 20 29 37 59
+rect 64 33 81 63
+<< pdiffc >>
+rect 20 135 37 175
+rect 64 134 81 177
+<< poly >>
+rect 43 181 58 194
+rect 43 108 58 129
+rect 15 103 58 108
+rect 13 86 21 103
+rect 38 86 58 103
+rect 16 81 58 86
+rect 43 67 58 81
+rect 43 12 58 25
+<< polycont >>
+rect 21 86 38 103
+<< locali >>
+rect 20 175 37 179
+rect 20 127 37 135
+rect 64 177 81 185
+rect 64 103 81 134
+rect 13 86 21 103
+rect 38 86 46 103
+rect 64 86 89 103
+rect 20 59 37 67
+rect 20 27 37 29
+rect 64 63 81 86
+rect 64 25 81 33
+<< viali >>
+rect 20 179 37 196
+rect 21 86 38 103
+rect 89 86 106 103
+rect 20 10 37 27
+<< metal1 >>
+rect 0 196 107 206
+rect 0 179 20 196
+rect 37 179 107 196
+rect 0 173 107 179
+rect 15 103 52 106
+rect 15 86 21 103
+rect 38 86 52 103
+rect 15 83 52 86
+rect 75 103 112 106
+rect 75 86 89 103
+rect 106 86 112 103
+rect 75 83 112 86
+rect 0 27 107 33
+rect 0 10 20 27
+rect 37 10 107 27
+rect 0 0 107 10
+<< labels >>
+rlabel space 83 80 112 109 0 ZB
+rlabel metal1 0 173 107 206 0 Vdd!
+rlabel metal1 0 0 107 33 0 GND!
+rlabel space 15 80 44 109 0 Z
+<< end >>
